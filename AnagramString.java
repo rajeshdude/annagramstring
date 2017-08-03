@@ -10,7 +10,6 @@ class AnagramString
     String text = input.next();   
 	String pattern = input.next();
     anagram(text,pattern);
-    System.out.println("Hello World");
 	}
 	
 	private static boolean comp(int[] intext , int[] inpath){
